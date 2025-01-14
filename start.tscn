@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://dq0747fm3mmwc"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Button" type="Button" parent="."]
+offset_right = 195.0
+offset_bottom = 78.0
+text = "we are going again"
