@@ -1,6 +1,7 @@
 # Godot 4+ specific ignores
 .godot/
 <<<<<<< HEAD
+<<<<<<< HEAD
 /android/
 =======
 
@@ -17,3 +18,6 @@ export_presets.cfg
 data_*/
 mono_crash.*.json
 >>>>>>> d715c3c4cef69322234b020621d7e5192ad94ce6
+=======
+/android/
+>>>>>>> 83e78a41c422c28e7299359e351ce556dcd0229f
