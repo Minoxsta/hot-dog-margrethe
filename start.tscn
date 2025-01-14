@@ -6,7 +6,11 @@
 offset_right = 113.0
 offset_bottom = 64.0
 <<<<<<< HEAD
+<<<<<<< HEAD
 text = "Yo"
+=======
+text = "hej"
+>>>>>>> 83e78a41c422c28e7299359e351ce556dcd0229f
 =======
 text = "hej"
 >>>>>>> 83e78a41c422c28e7299359e351ce556dcd0229f
