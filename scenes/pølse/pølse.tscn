@@ -1,4 +1,4 @@
-[gd_scene load_steps=3 format=3 uid="uid://cjbv70urk1740"]
+[gd_scene load_steps=3 format=3 uid="uid://bnuclfib7scse"]
 
 [ext_resource type="Script" path="res://scenes/pølse/pølse.gd" id="1_d3oho"]
 [ext_resource type="Texture2D" uid="uid://bdp5rts1wmvmg" path="res://assets/images/pølse.png" id="2_1nfbp"]
@@ -14,8 +14,4 @@ metadata/_edit_group_ = true
 [node name="Area2D" type="Area2D" parent="Sprite2D"]
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Sprite2D/Area2D"]
-<<<<<<< HEAD:pølse.tscn
-visible = false
-=======
->>>>>>> 233854599b97e85b16d23e6a6a75067596726d12:scenes/pølse/pølse.tscn
 polygon = PackedVector2Array(-321.687, 224, -282.799, 172.8, -185.578, 85.7599, -79.2064, -42.2401, 20.3021, -195.84, 79.7785, -349.44, 87.7849, -400.64, 147.261, -481.28, 214.744, -509.44, 333.697, -459.52, 358.86, -368.64, 274.22, -143.36, 173.568, 55.04, 23.7334, 248.32, -166.133, 421.12, -247.342, 439.04, -266.786, 424.96, -330.837, 390.4, -353.713, 285.44)
