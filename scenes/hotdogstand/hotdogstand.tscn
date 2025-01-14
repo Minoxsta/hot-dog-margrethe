@@ -1,8 +1,7 @@
-[gd_scene load_steps=4 format=3 uid="uid://dn4y4f0j8qn3k"]
+[gd_scene load_steps=3 format=3 uid="uid://dn4y4f0j8qn3k"]
 
 [ext_resource type="Script" path="res://scenes/hotdogstand/hotdogstand.gd" id="1_37hsu"]
 [ext_resource type="Texture2D" uid="uid://g8grviw5kbyf" path="res://assets/images/hotdog-stand.png" id="2_rm728"]
-[ext_resource type="PackedScene" uid="uid://cjbv70urk1740" path="res://scenes/pølse/pølse.tscn" id="3_pdqqs"]
 
 [node name="hotdogstand_root" type="Node2D"]
 position = Vector2(800, 450)
@@ -11,10 +10,14 @@ script = ExtResource("1_37hsu")
 [node name="hotdogstand_sprite" type="Sprite2D" parent="."]
 texture = ExtResource("2_rm728")
 
-[node name="Pølse" parent="." instance=ExtResource("3_pdqqs")]
-
-[node name="Sprite2D" parent="Pølse" index="0"]
-position = Vector2(800, 450)
-scale = Vector2(0.2, 0.2)
-
-[editable path="Pølse"]
+[node name="Pølse" parent="."]
+_import_path = NodePath("")
+unique_name_in_owner = false
+process_mode = 0
+process_priority = 0
+process_physics_priority = 0
+process_thread_group = 0
+physics_interpolation_mode = 0
+auto_translate_mode = 0
+editor_description = ""
+script = null
