@@ -1,16 +1,8 @@
-[gd_scene format=3 uid="uid://bg74ex1iainak"]
+[gd_scene format=3 uid="uid://dq0747fm3mmwc"]
 
-[node name="Start" type="Node2D"]
+[node name="Node2D" type="Node2D"]
 
 [node name="Button" type="Button" parent="."]
-offset_right = 113.0
-offset_bottom = 64.0
-<<<<<<< HEAD
-<<<<<<< HEAD
-text = "Yo"
-=======
-text = "hej"
->>>>>>> 83e78a41c422c28e7299359e351ce556dcd0229f
-=======
-text = "hej"
->>>>>>> 83e78a41c422c28e7299359e351ce556dcd0229f
+offset_right = 195.0
+offset_bottom = 78.0
+text = "we are going again"
