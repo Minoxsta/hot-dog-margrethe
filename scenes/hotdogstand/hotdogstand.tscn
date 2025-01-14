@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://dn4y4f0j8qn3k"]
+
+[ext_resource type="Script" path="res://scenes/hotdogstand/hotdogstand.gd" id="1_37hsu"]
+[ext_resource type="Texture2D" uid="uid://g8grviw5kbyf" path="res://hotdog-stand.png" id="2_rm728"]
+
+[node name="hotdogstand_root" type="Node2D"]
+position = Vector2(800, 450)
+script = ExtResource("1_37hsu")
+
+[node name="hotdogstand_sprite" type="Sprite2D" parent="."]
+texture = ExtResource("2_rm728")
