@@ -1,6 +1,7 @@
 extends Node2D
 
-var was_released = false
+@export var pølse_scene : PackedScene = load("res://scenes/pølse/pølse.tscn")
+
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
@@ -9,7 +10,10 @@ func _ready() -> void:
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
-	if Input.is_mouse_button_pressed(1) && not was_released:
-		$Sprite2D.position = get_viewport().get_mouse_position()
-	else:
-		was_released = true
+	pass
+
+
+
+func _on_texture_button_down() -> void:
+	var pols = pølse_scene.instantiate()
+	self.get_parent().add_child(pols)

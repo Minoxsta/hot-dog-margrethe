@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" path="res://scenes/hotdogstand/hotdogstand.gd" id="1_37hsu"]
 [ext_resource type="Texture2D" uid="uid://g8grviw5kbyf" path="res://assets/images/hotdog-stand.png" id="2_rm728"]
-[ext_resource type="PackedScene" uid="uid://bnuclfib7scse" path="res://scenes/pølse/pølse.tscn" id="3_p88ov"]
+[ext_resource type="PackedScene" uid="uid://0jqxfinckhys" path="res://scenes/pølse_box/pølse_box.tscn" id="4_bmkpn"]
 
 [node name="hotdogstand_root" type="Node2D"]
 position = Vector2(800, 450)
@@ -11,10 +11,4 @@ script = ExtResource("1_37hsu")
 [node name="hotdogstand_sprite" type="Sprite2D" parent="."]
 texture = ExtResource("2_rm728")
 
-[node name="Pølse" parent="." instance=ExtResource("3_p88ov")]
-
-[node name="Sprite2D" parent="Pølse" index="0"]
-position = Vector2(800, 450)
-scale = Vector2(0.2, 0.2)
-
-[editable path="Pølse"]
+[node name="PølseBox" parent="." instance=ExtResource("4_bmkpn")]

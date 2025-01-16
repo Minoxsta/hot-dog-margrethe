@@ -8,6 +8,7 @@ script = ExtResource("1_d3oho")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 top_level = true
+scale = Vector2(0.2, 0.2)
 texture = ExtResource("2_1nfbp")
 metadata/_edit_group_ = true
 
