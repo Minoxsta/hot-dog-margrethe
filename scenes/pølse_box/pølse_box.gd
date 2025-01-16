@@ -2,6 +2,7 @@ extends Node2D
 
 @export var pølse_scene : PackedScene = load("res://scenes/pølse/pølse.tscn")
 
+signal pols_created(pols)
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
@@ -16,4 +17,5 @@ func _process(delta: float) -> void:
 
 func _on_texture_button_down() -> void:
 	var pols = pølse_scene.instantiate()
-	self.get_parent().add_child(pols)
+	emit_signal("pols_created", pols)
+	
